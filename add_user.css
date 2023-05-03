@@ -1,0 +1,104 @@
+.sidebar {
+  background-color: #03004b;
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding-top: 20px;
+}
+
+.sidebar h2 {
+  color: white;
+  padding-left: 20px;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar li a {
+  display: block;
+  color: white;
+  padding: 10px 0 10px 20px;
+  text-decoration: none;
+}
+
+.sidebar li a:hover {
+  background-color: #34495e;
+}
+
+.content {
+  margin-left: 200px;
+  padding: 20px;
+}
+
+.content h1 {
+  font-size: 36px;
+}
+
+.content form {
+  margin-top: 30px;
+}
+
+.content label {
+  display: block;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.content input[type="text"], .content textarea, .content input[type="file"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 5px;
+  border: 1px solid #000000;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+.content input[type="submit"], .content input[type="button"] {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.content input[type="submit"]:hover, .content input[type="button"]:hover {
+  background-color: #2980b9;
+}
+
+.content input[type="submit"]:focus, .content input[type="button"]:focus {
+  outline: none;
+}
+
+.btn-cancelar {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-cancelar {
+  background-color: #c0392b;
+}
+
+.btn-sair {
+	background-color: #000000;
+	border: none;
+	color: #fff;
+	padding: 10px 20px;
+	border-radius: 5px;
+	cursor: pointer;
+	margin-top: auto;
+	width: 100%;
+}
