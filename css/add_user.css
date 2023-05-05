@@ -1,0 +1,137 @@
+.icon {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 2em;
+}
+
+/* O ícone "home" */
+.icon-home:before {
+  content: "\f015";
+}
+
+.sidebar {
+  background-color: #141533;
+  height: 100%;
+  width: 290px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding-top: 20px;
+  background: #141533 0% 0% no-repeat padding-box;
+  box-shadow: 3px 0px 6px #00000029;
+  border-radius: 0px 63px 0px 0px;
+  opacity: 1;
+}
+
+.sidebar h2 {
+  color: white;
+  padding-left: 20px;
+  top: 171px;
+  left: 160px;
+  width: 123px;
+  height: 66px;
+  text-align: left;
+  font: normal normal bold 24px/33px Open Sans;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  top: 351px;
+  left: 107px;
+  width: 131px;
+  height: 33px;
+  text-align: left;
+  font: normal normal 300 24px/28px Open Sans;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+.sidebar li a {
+  display: block;
+  color: white;
+  padding: 10px 0 10px 20px;
+  text-decoration: none;
+}
+
+.sidebar li a:hover {
+  background-color: #34495e;
+}
+
+.content {
+  margin-left: 200px;
+  padding: 20px;
+}
+
+.content h1 {
+  font-size: 36px;
+}
+
+.content form {
+  margin-top: 30px;
+}
+
+.content label {
+  display: block;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.content input[type="text"], .content textarea, .content input[type="file"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 5px;
+  border: 1px solid #000000;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+.content input[type="submit"], .content input[type="button"] {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.content input[type="submit"]:hover, .content input[type="button"]:hover {
+  background-color: #2980b9;
+}
+
+.content input[type="submit"]:focus, .content input[type="button"]:focus {
+  outline: none;
+}
+
+.btn-cancelar {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-cancelar {
+  background-color: #c0392b;
+}
+
+.btn-sair {
+	background-color: #000000;
+	border: none;
+	color: #fff;
+	padding: 10px 20px;
+	border-radius: 5px;
+	cursor: pointer;
+	margin-top: auto;
+	width: 100%;
+}

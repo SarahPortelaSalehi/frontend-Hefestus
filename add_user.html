@@ -2,34 +2,38 @@
 <html>
 <head>
 	<title>Adicionar Usuário</title>
-	<link rel="stylesheet" type="text/css" href="add_user.css">
+	<link rel="stylesheet" type="text/css" href="css/add_user.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-LW8s0cdeF+9Z+H9dEiiEjLwZQstPd3NV67FV+REtbCjhRsV+2wCj+nUz4/1xNYwK/f0s8ukhW57iG9N0zDBDZw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	  
 </head>
 <body>
-	<div class="sidebar">
-		<h2>Gerente: Nome do Gerente</h2>
-		<ul>
-			<li><a href="#">DashBoard</a></li>
-			<li><a href="#">Processos</a></li>
-			<li><a href="#">Cadastros</a></li>
-		</ul>
-		<button class="btn-sair">Sair</button>
-	</div>
-	<div class="content">
-		<h1>Adicionar Usuário</h1>
-		<form>
-			<label for="nome-completo">Nome Completo:</label>
-			<input type="text" id="nome-completo" name="nome-completo" required>
-			<label for="matricula">Matrícula:</label>
-			<input type="text" id="matricula" name="matricula" required>
-			<label for="capacitacoes">Capacitações:</label>
-			<textarea id="capacitacoes" name="capacitacoes" required></textarea>
-			<label for="cadastro-facial">Cadastro Facial:</label>
-			<input type="file" id="cadastro-facial" name="cadastro-facial" accept="image/*" required>
-			<div class="form-buttons">
-        <button class="btn-cancelar">Cancelar</button>
-				<input type="submit" value="Adicionar">
-			</div>
-		</form>
+	<div class="wrapper">
+		<div class="sidebar">
+			<h2>Gerente: Nome do Gerente</h2>
+			<ul>
+				<li><a href="#">DashBoard</a></li>
+				<li><a href="#">Processos</a></li>
+				<li><a href="#">Cadastros</a></li>
+			</ul>
+			<button class="btn-sair">Sair</button>
+		</div>
+		<div class="content">
+			<h1>Adicionar Usuário</h1>
+			<form>
+				<label for="nome-completo">Nome Completo:</label>
+				<input type="text" id="nome-completo" name="nome-completo" required>
+				<label for="matricula">Matrícula:</label>
+				<input type="text" id="matricula" name="matricula" required>
+				<label for="capacitacoes">Capacitações:</label>
+				<textarea id="capacitacoes" name="capacitacoes" required></textarea>
+				<label for="cadastro-facial">Cadastro Facial:</label>
+				<input type="file" id="cadastro-facial" name="cadastro-facial" accept="image/*" required>
+				<div class="form-buttons">
+			<button class="btn-cancelar">Cancelar</button>
+					<input type="submit" value="Adicionar">
+				</div>
+			</form>
+		</div>
 	</div>
 </body>
 </html>
