@@ -1,41 +1,85 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Adicionar Usuário</title>
-	<link rel="stylesheet" type="text/css" href="css/add_user.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-LW8s0cdeF+9Z+H9dEiiEjLwZQstPd3NV67FV+REtbCjhRsV+2wCj+nUz4/1xNYwK/f0s8ukhW57iG9N0zDBDZw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-	  
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/add_user.css">
+    <title>Sistema Callidus</title>
 </head>
 <body>
-	<div class="wrapper">
-		<div class="sidebar">
-			<h2>Gerente: Nome do Gerente</h2>
-			<ul>
-				<li><a href="#">DashBoard</a></li>
-				<li><a href="#">Processos</a></li>
-				<li><a href="#">Cadastros</a></li>
-			</ul>
-			<button class="btn-sair">Sair</button>
-		</div>
-		<div class="content">
-			<h1>Adicionar Usuário</h1>
-			<form>
-				<label for="nome-completo">Nome Completo:</label>
-				<input type="text" id="nome-completo" name="nome-completo" required>
-				<label for="matricula">Matrícula:</label>
-				<input type="text" id="matricula" name="matricula" required>
-				<label for="capacitacoes">Capacitações:</label>
-				<textarea id="capacitacoes" name="capacitacoes" required></textarea>
-				<label for="cadastro-facial">Cadastro Facial:</label>
-				<input type="file" id="cadastro-facial" name="cadastro-facial" accept="image/*" required>
-				<div class="form-buttons">
-			<button class="btn-cancelar">Cancelar</button>
-					<input type="submit" value="Adicionar">
-				</div>
-			</form>
-		</div>
-	</div>
+    <div class="wrapper">
+        <div class="container-fluid">
+            <div class="row flex-nowrap">
+                <div class=" col-auto col-md-4 col-lg-2 min-vh-100 d-flex flex-column justify-content-between custom-circle">
+                    <div>
+                        <a class="d-flex text-decoration-none mt-5 ms-3 align-items-center text-white">
+                            <span class="fs-4 d-none d-sm-inline">Olá, usuário</span>
+                        </a>
+                        <ul class="nav nav-pills flex-column mt-4">
+                            <li class="nav-item py-2 py-sm-0">
+                                <a href="#" class="nav-link text-white">
+                                    <i class="bi bi-trello fs-4"></i><span class="fs-4 ms-2 d-none d-sm-inline">Dashboards</span>
+                                </a>
+                            </li>
+                            <li class="nav-item py-2 py-sm-0">
+                                <a href="#" class="nav-link text-white">
+                                    <i class="bi bi-diagram-2 fs-5"></i><span class="fs-4 ms-2 d-none d-sm-inline">Processos</span>
+                                </a>
+                            </li>
+                            <li class="nav-item py-2 py-sm-0">
+                                <a href="#" class="nav-link text-white">
+                                    <i class="bi bi-people-fill fs-4"></i><span class="fs-4 ms-2 d-none d-sm-inline">Cadastros</span>
+                                </a>
+                            </li>
+                        </ul>
+
+                        <ul class="nav nav-pills flex-column mt-4 " data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                            <li class="nav-item py-2 py-sm-0">
+                                <a href="#" class="nav-link text-white " >
+                                    <i class="bi bi-box-arrow-left fs-4"></i><span class="fs-4 ms-2 d-none d-sm-inline">Sair</span>
+                                </a>
+                            </li>
+                        </ul>
+                            <!-- Modal -->
+                        <div class="modal fade modal-sm " id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-body d-flex justify-content-center">
+                                    Tem certeza que deseja sair?
+                                    </div>
+                                    <div class="modal-footer">
+                                    <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Cancelar</button>
+                                    <button type="button" class="btn btn-primary">Sair</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content">
+                    <h1>Adicionar Usuário</h1>
+                    <form>
+                        <label for="nome-completo">Nome Completo:</label>
+                        <input type="text" id="nome-completo" name="nome-completo" required>
+                        <label for="matricula">Matrícula:</label>
+                        <input type="text" id="matricula" name="matricula" required>
+                        <label for="capacitacoes">Capacitações:</label>
+                        <textarea id="capacitacoes" name="capacitacoes" required></textarea>
+                        <label for="cadastro-facial">Cadastro Facial:</label>
+                        <input type="file" id="cadastro-facial" name="cadastro-facial" accept="image/*" required>
+                        <div class="form-buttons">
+                    <button class="btn-cancelar">Cancelar</button>
+                            <input type="submit" value="Adicionar">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </body>
 </html>
-
-
