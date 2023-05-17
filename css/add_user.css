@@ -50,6 +50,21 @@ input[type="text"] {
   display: block;
 }
 
+.captura {
+  display: block;
+  margin-top: 30px;
+}
+
+.retangulo-preto {
+  margin-top: 20px;
+  width: 600px;
+  height: 360px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .botao-cancelar {
   position: absolute;
   bottom: 40px;
