@@ -1,27 +1,84 @@
 .nav-pills li a:hover {
-    background-color: #FF822E;
-    border-top-left-radius: 30px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.3);
-    border-bottom-left-radius: 30px;
-    border-bottom-right-radius: 30px;
+  background-color: #FF822E;
+  border-top-left-radius: 30px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
 }
 
 .custom-color {
-  background-color: #F7F8FC;
+background-color: #F7F8FC;
 }
 
 .custom-circle {
-    background-color: #141533;
-    border-top-right-radius: 50px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  background-color: #141533;
+  border-top-right-radius: 50px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
 }
+
+.cadastros {
+  padding-top: 60px;
+  padding-left: 90px;
+}
+
 .retangulo-branco {
-  position: relative;
-  background-color: #FFFFFF;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  width: 75%;
-  height: 700px;
-  border-radius: 20px;
-  margin: 100px auto;
-  padding: 30px;
+position: relative;
+background-color: #FFFFFF;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+width: 75%;
+height: 600px;
+border-radius: 20px;
+margin: 10px;
+padding: 30px;
+}
+
+form#meu-formulario div {
+display: inline-block;
+margin-top: 50px;
+margin-right: 10px;
+}
+
+form#meu-formulario label {
+display: block;
+}
+
+form#meu-formulario input[type="submit"] {
+display: block;
+margin-top: 10px;
+}
+
+input[type="text"] {
+width: 390px;
+}
+
+#turno {
+  width: 150px;
+  height: 30px;
+  display: block;
+}
+
+.botao-cancelar {
+position: absolute;
+bottom: 40px;
+right: 160px;
+background-color: #e74c3c;
+color: white;
+border: none;
+padding: 5px 8px;
+font-size: 18px;
+border-radius: 20px;
+cursor: pointer;
+}
+
+input[type="submit"], .content input[type="button"]{
+position: absolute;
+bottom: 40px;
+right: 60px;
+background-color: #3498db;
+color: white;
+border: none;
+padding: 5px 8px;
+font-size: 18px;
+border-radius: 20px;
+cursor: pointer;
 }
