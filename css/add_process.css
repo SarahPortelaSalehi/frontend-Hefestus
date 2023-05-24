@@ -1,0 +1,27 @@
+.nav-pills li a:hover {
+    background-color: #FF822E;
+    border-top-left-radius: 30px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.custom-color {
+  background-color: #F7F8FC;
+}
+
+.custom-circle {
+    background-color: #141533;
+    border-top-right-radius: 50px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+.retangulo-branco {
+  position: relative;
+  background-color: #FFFFFF;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  width: 75%;
+  height: 700px;
+  border-radius: 20px;
+  margin: 100px auto;
+  padding: 30px;
+}

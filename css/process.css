@@ -1,0 +1,100 @@
+.nav-pills li a:hover {
+    background-color: #FF822E;
+    border-top-left-radius: 30px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.custom-color {
+  background-color: #FFFFFF;
+}
+
+.custom-circle {
+    background-color: #141533;
+    border-top-right-radius: 50px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+.retangulo-branco {
+  position: relative;
+  background-color: #f0f1f6;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  width: 75%;
+  height: 700px;
+  border-radius: 20px;
+  margin: 10px;
+  padding: 35px;
+}
+
+.cadastros {
+  padding-top: 60px;
+  padding-left: 90px;
+}
+
+.retangulo {
+    width: 100%;
+    padding: 0;
+    background-color: #FFFFFF; 
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  .titulo {
+    font-weight: bold;
+    background-color: #141533;
+    color: #fff;
+    padding: 15px;
+  }
+
+  .retangulo h2 {
+    font-size: 20px; 
+  }
+
+  .lista-tarefas {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .tabela {
+    width: 100%;
+    
+    
+  }
+  
+  .tabela th,
+  .tabela td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .tabela th {
+    background-color: #f27f45;
+  }
+  
+  .linha-impar {
+    background-color: #fff;
+  }
+  
+  .linha-par {
+    background-color: #fee4ce;
+  }
+  
+  .componente {
+    display: flex;
+    align-items: center;
+  }
+  
+
+  
+  .icone-edicao {
+    margin-left: 10px;
+    font-size: 16px;
+  }
+
+  .btn-add {
+    padding-top: 30px;
+    border-radius: 50px;
+    font-size: 14px;
+  }
+  
