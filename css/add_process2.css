@@ -1,0 +1,137 @@
+.nav-pills li a:hover {
+    background-color: #FF822E;
+    border-top-left-radius: 30px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+  }
+  
+  .custom-color {
+  background-color: #F7F8FC;
+  }
+  
+  .custom-circle {
+    background-color: #141533;
+    border-top-right-radius: 50px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  }
+  
+  .cadastros {
+    padding-top: 60px;
+    padding-left: 90px;
+  }
+  
+  .retangulo-branco {
+    position: relative;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 75%;
+    height: 700px;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 30px;
+  }
+
+  .btn-add {
+    border-radius: 50px;
+    display: inline-block;
+    
+  }
+
+  .btn-add button {
+    padding: 4px 8px;
+    border-radius: 30px;
+    font-size: 16px;
+  }
+  
+  .retangulo-menor {
+    position: relative;
+    background-color: #fee4ce;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    height: 400px;
+    max-height: 400px;
+    border-radius: 20px;
+    margin-top: 20px;
+    overflow: auto;
+  }
+
+  .retangulo-menor ul {
+    list-style-type: none;
+    padding: 10px;
+}
+
+.retangulo-menor li {
+    margin-bottom: 10px;
+}
+
+.lista-tarefas {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .tabela {
+    width: 100%;
+  }
+  
+  .tabela th {
+    padding: 0;
+    margin: 0;
+  }
+  .tabela td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .tabela th {
+    background-color:transparent;
+  }
+  
+  .linha-impar {
+    background-color: #fff;
+  }
+  
+  .linha-par {
+    background-color: #fee4ce;
+  }
+  
+  .componente {
+    display: flex;
+    align-items: center;
+  }
+
+  .imagem-perfil {
+    width: 28px;
+    height: 28px;
+}
+
+    .nome {
+        padding-left: 12px; 
+    }
+
+  .botao-cancelar {
+  position: absolute;
+  bottom: 40px;
+  right: 160px;
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 5px 8px;
+  font-size: 18px;
+  border-radius: 20px;
+  cursor: pointer;
+  }
+  
+  input[type="submit"], .content input[type="button"]{
+  position: absolute;
+  bottom: 40px;
+  right: 60px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 5px 8px;
+  font-size: 18px;
+  border-radius: 20px;
+  cursor: pointer;
+  }
