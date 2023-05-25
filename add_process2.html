@@ -402,8 +402,21 @@
                             <button class="botao-cancelar">Voltar</button>
                         </div>
                         <div>
-                            <input type="submit" value="Prosseguir">
+                            <button type="button" class="btn btn-primary botao-prosseguir" data-bs-toggle="modal" data-bs-target="#modalprosseguir">Prosseguir</button>
                         </div>
+                        <!-- Modal -->
+                        <div class="modal fade modal-sm " id="modalprosseguir"  tabindex="-1" aria-labelledby="modalExcluirLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-body d-flex justify-content-center">
+                                      Tarefa adicionada com sucesso!
+                                    </div>
+                                    <div class="modal-footer d-flex justify-content-center">
+                                      <button type="button" class="btn btn-primary">Voltar a página inicial</button>
+                                    </div>
+                                </div>
+                            </div>
+                          </div>
                     </div>
                 </div>
             </div>
